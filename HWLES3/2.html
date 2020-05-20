@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function f() {
+        if (a === 0){ //если 0
+            document.write(a + " - это ноль"+"<br>")
+        }
+        else if (a % 2 !== 0){ //если нечетное
+            document.write(a + " - нечётное число"+"<br>")
+        }
+        else { остальные чётные
+            document.write(a + " - чётное число"+"<br>")
+        }
+    }
+
+    var a = 0;
+    do{
+        f(a) //вызываем функцию с переменной а
+        a+=1; //а увеличиваем на 1
+    }
+    while (a<=10) //пока а меньше 10
+
+</script>
+</body>
+</html>
